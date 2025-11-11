@@ -1,0 +1,13 @@
+﻿  test.cpp
+C:\Users\user\Downloads\vs_mkr_test1\vs_mkr_test1\sort.h(3,9): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+  (compiling source file '/test.cpp')
+      C:\Users\user\Downloads\vs_mkr_test1\vs_mkr_test1\sort.h(3,9):
+      '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+  
+C:\Users\user\Downloads\vs_mkr_test1\vs_mkr_test1\sort.h(46,41): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/test.cpp')
+  
+C:\Users\user\Downloads\vs_mkr_test1\vs_mkr_test1\stringProcessor.h(11,34): warning C4114: same type qualifier used more than once
+  (compiling source file '/test.cpp')
+  
+  test_repos.vcxproj -> C:\Users\user\Downloads\vs_mkr_test1\vs_mkr_test1\x64\Debug\test_repos.exe
