@@ -1,0 +1,25 @@
+# Visual Studio temporary files and caches
+.vs/
+*.suo
+*.user
+*.sln.docstates
+
+# Build results from Visual Studio
+[Bb]in/
+[Oo]bj/
+[Rr]elease/
+[Dd]ebug/
+x64/
+Win32/
+build/
+Build/
+
+# NuGet packages folder
+packages/
+
+# Other files to ignore
+*.VC.db
+*.opensdf
+*.sdf
+*.cache
+*.VC.VC.opendb
