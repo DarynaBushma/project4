@@ -7,11 +7,19 @@ pipeline {
                 checkout scm
             }
         }
+
+        stage('Restore Packages') {
+            steps {
+                bat '"C:\\jenkins-tools\\nuget\\nuget.exe" restore test_repos.sln'
+            }
+        }
+
         stage('Build') {
             steps {
                 bat '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe" test_repos.sln /p:Configuration=Debug /p:Platform=x64'
             }
         }
+        
         stage('Test') {
             steps {
                 bat "x64\\Debug\\test_repos.exe --gtest_output=xml:test_report.xml"
