@@ -1,3 +1,4 @@
+//демонстраційний коментрар
 #ifndef SORT_H
 #define SORT_H
 #define _CRT_SECURE_NO_WARNINGS 
